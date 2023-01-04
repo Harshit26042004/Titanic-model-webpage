@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as sl
 
-load_depmod = pickle.load(open('D:/programcodes/Titanic_web_deployment/deployer.sav','rb'))
+load_depmod = pickle.load(open('deployer.sav','rb'))
 
 def depfunc(input_data):
     input_dupdata = np.asarray(input_data)
